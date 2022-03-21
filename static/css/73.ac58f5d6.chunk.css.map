@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/73.ac58f5d6.chunk.css","mappings":"AAAA,MACI,kBAEA,aACI,eACA,oBACA","sources":["pages/home/index.scss"],"sourcesContent":[".home {\n    text-align: center;\n\n    .title {\n        font-size: 42px;\n        font-weight: lighter;\n        margin: 8vh 0;\n    }\n}"],"names":[],"sourceRoot":""}

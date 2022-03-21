@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbest_search=self.webpackChunkbest_search||[]).push([[73],{8073:function(e,s,n){n.r(s),n.d(s,{default:function(){return r}});n(2791);var a=n(3326),c=n(184);function r(){return(0,c.jsxs)("div",{className:"home",children:[(0,c.jsx)("h1",{className:"title",children:"Search Trends"}),(0,c.jsx)(a.Z,{animation:"fade-in-down"})]})}}}]);
+//# sourceMappingURL=73.52913cc9.chunk.js.map
