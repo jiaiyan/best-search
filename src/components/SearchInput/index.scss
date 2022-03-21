@@ -1,0 +1,80 @@
+.search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+
+    &.fade-in-up {
+        -webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp
+    }
+
+    &.fade-in-down {
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown
+    }
+
+    .MuiAutocomplete-root {
+        display: inline-block;
+        width: calc(100% - 56px);
+
+        .MuiFormControl-marginNormal{
+            margin: 0;
+
+            > label {
+                @media screen and (max-width: 600px) {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    width: 90%;
+                    text-overflow: ellipsis;
+                    
+                }
+            }
+
+            .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]{
+                padding: 1px 9px;
+            }
+
+            .MuiInputLabel-outlined {
+                transform: translate(14px, 12px) scale(1);
+
+            }
+            .MuiInputLabel-shrink {
+                transform: translate(14px, -7px) scale(0.75);
+
+            }
+        }
+    }
+
+    .MuiButtonBase-root {
+        margin-left: 15px;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0,100%,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0)
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0,-100%,0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+

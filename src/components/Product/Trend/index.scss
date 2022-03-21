@@ -1,0 +1,30 @@
+.trend {
+    .trend-header{
+        position: absolute;
+    
+        h3{
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 1.334;
+            letter-spacing: 0em;
+            small { 
+                font-size: 1.5rem;
+            }
+        }
+    
+        small {
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 0.00938em;
+            color: rgba(0, 0, 0, 0.54);
+        }
+    }
+
+    .trend-chart {
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+}
